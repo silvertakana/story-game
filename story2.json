@@ -1,0 +1,48 @@
+{
+  "title": "Escape the Haunted Mansion",
+  "description": "A spooky text adventure game.",
+  "start": {
+    "text": "You find yourself trapped in a haunted mansion. The doors are all locked and you hear strange noises echoing through the halls. \nYou come to a fork in the hallway, with a staircase leading up and a door leading to the basement. \nWhat do you do?",
+    "choices": {
+      "upstairs": {
+        "text": "You cautiously climb the stairs, and find yourself in a dark, dusty attic. You hear strange whispers and footsteps behind you, but you can't see anyone. \nAs you search for a way out, you come across an old chest. You open it and find a key that unlocks the front door. \nWhat do you do next?",
+        "choices": {
+          "escape": {
+            "text": "You use the key to unlock the front door and escape from the mansion. \nCongratulations, you have escaped the haunted mansion!",
+            "end": true
+          },
+          "explore": {
+            "text": "You decide to explore the attic further, hoping to find something useful. You come across an old diary that tells the story of the haunted mansion and its previous owners. \nAs you read the diary, you hear strange noises getting closer. You turn around and see the ghostly figure of the previous owner. \nWhat do you do?",
+            "choices": {
+              "fight": {
+                "text": "You try to fight the ghost, but your attacks pass right through it. You realize that you can't defeat it and try to run away. You manage to escape from the attic and find another way out of the mansion. \nCongratulations, you have escaped the haunted mansion!",
+                "end": true
+              },
+              "talk": {
+                "text": "You try to talk to the ghost, hoping to learn more about the mansion and why it's haunted. The ghost tells you its story and reveals a hidden passage that leads out of the mansion. \nYou follow the passage and eventually find your way out of the mansion. \nCongratulations, you have escaped the haunted mansion!",
+                "end": true
+              }
+            }
+          }
+        }
+      },
+      "basement": {
+        "text": "You open the door to the basement and descend the creaky stairs. It's dark and damp down here, and you hear dripping water echoing off the walls. \nAs you search for a way out, you come across a rusty door. You try to open it, but it's stuck. \nYou hear something moving behind the door, and suddenly it bursts open, revealing a horde of hungry zombies. \nWhat do you do?",
+        "choices": {
+          "fight": {
+            "text": "You try to fight off the zombies, but there are too many of them. They overwhelm you and you become one of them. \nGame over!",
+            "end": true
+          },
+          "run": {
+            "text": "You try to run away from the zombies, but they are faster than you. You eventually get trapped in a corner and they swarm over you. \nGame over!",
+            "end": true
+          },
+          "hide": {
+            "text": "You try to hide from the zombies, hoping that they won't find you. You manage to find a small alcove and hide in it. \nAs the zombies pass by, you notice a small hole in the wall. You crawl through it and find yourself in a hidden room. \nYou find a way out of the mansion and manage to escape. Congratulations, you have escaped the haunted mansion!",
+            "end": true
+          }
+        }
+      }
+    }
+  }
+}
