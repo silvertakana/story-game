@@ -1,0 +1,17 @@
+{
+    "title": "Survive the Forest",
+    "description": "A simple text adventure game.",
+    "start":{
+		"jump_loc": "jump_loc_start",
+        "text": "You are walking through a dark forest when you come to a fork in the road. \nIf you take the left path, you will encounter a pack of wolves. \nIf you take the right path, you will come across a rickety bridge over a chasm. \nWhat do you do?",
+        "choices":{
+            "left":{
+				"jump":"jump_loc_start",
+                "text": "You chose the left path and encounter a pack of wolves. \nYou try to sneak past them but they catch your scent and start chasing you. \nYou manage to outrun them and eventually find your way out of the forest. \nCongratulations, you survived!"
+            },
+            "right":{
+                "text": "You chose the right path and come across a rickety bridge over a chasm. \nYou cautiously cross the bridge, but it starts to give way beneath you. \nYou manage to make it to the other side just in time, and continue on your way. \nCongratulations, you survived!"
+            }
+        }
+    }
+}
